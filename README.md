@@ -1,3 +1,3 @@
 # mld
 To run 
-npm start index.js
+npm start server.js
