@@ -13,7 +13,7 @@ app.use(cors());
 
 app.use(jwt());
 
-app.use('/users', require('./users/users.controller'));
+app.use('/', require('./users/users.controller'));
 
 app.use(errorHandler);
 
